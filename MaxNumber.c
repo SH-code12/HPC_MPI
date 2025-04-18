@@ -9,7 +9,6 @@ int p; /* number of process */
 int source; /* rank of sender */
 int dest; /* rank of reciever */
 int tag = 0; /* tag for messages */
-char message[100]; /* storage for message */
 MPI_Status status; /* return status for */
 /*Size of array and array*/
 int *array = NULL;
