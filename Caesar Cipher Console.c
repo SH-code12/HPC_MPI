@@ -5,9 +5,6 @@
 
 #define TAG 0
 
-#define TAG_OPERATION 1
-#define TAG_LENGTH 2
-
 void encrypt(char *s, int l) {
     for (int i = 0; i < l; i++) {
         if (s[i] >= 'a' && s[i] <= 'z') {
